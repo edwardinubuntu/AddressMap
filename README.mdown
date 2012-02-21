@@ -1,10 +1,6 @@
 AddressMap provides searching coordinations from given address name, and display on the map view.
 
-<img src="https://lh5.googleusercontent.com/-K3VvDQljZFE/T0M0D4GiS1I/AAAAAAAAB54/PTeD8hUSkJo/s400/Screen%252520Shot%2525202012-02-21%252520at%252520%2525E4%2525B8%25258B%2525E5%25258D%2525882.03.43.png" />
-
-<img src="https://lh4.googleusercontent.com/-ZVcrBnssLS8/T0M0GOZEnsI/AAAAAAAAB6E/o2X2XO0sdxI/s400/Screen%2520Shot%25202012-02-21%2520at%2520%25E4%25B8%258B%25E5%258D%25882.03.49.png" height="400" width="213" />
-
-<img src="https://lh6.googleusercontent.com/-Xwyt62Qeogs/T0M0GPUej-I/AAAAAAAAB6A/VvSgAEsooaw/s400/Screen%2520Shot%25202012-02-21%2520at%2520%25E4%25B8%258B%25E5%258D%25882.03.59.png" height="400" width="213" />
+<img src="https://lh5.googleusercontent.com/-K3VvDQljZFE/T0M0D4GiS1I/AAAAAAAAB54/PTeD8hUSkJo/s400/Screen%252520Shot%2525202012-02-21%252520at%252520%2525E4%2525B8%25258B%2525E5%25258D%2525882.03.43.png" /> <img src="https://lh4.googleusercontent.com/-ZVcrBnssLS8/T0M0GOZEnsI/AAAAAAAAB6E/o2X2XO0sdxI/s400/Screen%2520Shot%25202012-02-21%2520at%2520%25E4%25B8%258B%25E5%258D%25882.03.49.png" height="400" width="213" /> <img src="https://lh6.googleusercontent.com/-Xwyt62Qeogs/T0M0GPUej-I/AAAAAAAAB6A/VvSgAEsooaw/s400/Screen%2520Shot%25202012-02-21%2520at%2520%25E4%25B8%258B%25E5%258D%25882.03.59.png" height="400" width="213" />
 
 It has:
 
