@@ -227,6 +227,7 @@
 				1C05CFB414F370D500047DFD /* AppDelegate.m */,
 				1C05CFB514F370D500047DFD /* DemoViewController.h */,
 				1C05CFB614F370D500047DFD /* DemoViewController.m */,
+				1CDBCD0A14F338C600AD787A /* DemoViewController.xib */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -312,7 +313,6 @@
 			isa = PBXGroup;
 			children = (
 				1C05CFAA14F370D500047DFD /* classes */,
-				1CDBCD0A14F338C600AD787A /* DemoViewController.xib */,
 				1CDBCCFC14F338C600AD787A /* Supporting Files */,
 			);
 			path = AddressMap;
@@ -622,6 +622,7 @@
 				1CDBCD0B14F338C600AD787A /* en */,
 			);
 			name = DemoViewController.xib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		1CDBCD1C14F338C600AD787A /* InfoPlist.strings */ = {
