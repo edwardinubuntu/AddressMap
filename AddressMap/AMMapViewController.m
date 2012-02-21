@@ -31,6 +31,7 @@
 - (id)initWithAddress:(NSString *)address {
   if (self = [self initWithNibName:nil bundle:nil]) {
     self.address = address;
+    self.title = self.address;
   }
   return self;
 }
@@ -42,7 +43,6 @@
 
 - (void)loadView {
   [super loadView];
-  self.title = self.address;
   _locationModel = [[AMLocationsModel alloc] initWithAddress:self.address];
   _locationModel.delegate = self;
   [_locationModel load];
