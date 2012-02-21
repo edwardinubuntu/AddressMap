@@ -10,4 +10,18 @@
 
 @implementation AMLocationSpot
 
+@synthesize address = _address;
+@synthesize location = _location;
+
+- (void)dealloc {
+  [super dealloc];
+}
+
+- (CLLocationCoordinate2D) coordinate{
+  return self.location;
+}
+
+- (NSString *)title {
+  return self.address;
+}
 @end

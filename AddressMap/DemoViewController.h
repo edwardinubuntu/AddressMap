@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DemoViewController.h
 //  AddressMap
 //
 //  Created by Edward Chiang on 12/2/21.
@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DemoViewController : UIViewController
+@interface DemoViewController : UIViewController <
+  UITextFieldDelegate
+>
 
-@property (nonatomic, retain) UILabel *addressLabel;
+@property (nonatomic, retain) UITextField *addressView;
 @property (nonatomic, retain) UIButton *searchButton;
 
 @end

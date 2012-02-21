@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
 
-@interface AMLocationSpot : NSObject
+@interface AMLocationSpot : NSObject {
+@private
+  CLLocationCoordinate2D _location;
+  NSString *_address;
+}
 
+@property (nonatomic, assign) CLLocationCoordinate2D location;
+@property (nonatomic, copy) NSString *address;
 @end
