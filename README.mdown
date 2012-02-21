@@ -1,0 +1,14 @@
+AddressMap provides searching coordinations from given address name, and display on the map view.
+
+It has:
+
+* Ask [Google Maps API](http://maps.googleapis.com/maps/api/geocode/) for the results.
+* Transfer into location spots objects.
+* Add annotations on the map view
+* Zoom for the exactly what they should be.
+
+How to use:
+
+* Clone the project from **git clone**.
+* Remember to use **git submodule init**, **git submodule update** for the reference libraries it needs.
+* Open DemoViewController to know more.
