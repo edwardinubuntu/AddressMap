@@ -21,7 +21,7 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
   if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-    self.title = @"Demo Address to Map";
+    self.title = @"Demo";
   }
   return self;
 }
@@ -72,6 +72,7 @@
 
 - (void)search:(id)object {
   AMMapViewController *mapViewController = [[AMMapViewController alloc] initWithAddress:self.addressView.text];
+  mapViewController.title = @"Detail";
   [self.navigationController pushViewController:mapViewController animated:YES];
   [mapViewController release];
 }
