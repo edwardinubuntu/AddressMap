@@ -58,6 +58,7 @@
 		1CDBCE8F14F346D700AD787A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDBCE8E14F346D700AD787A /* MobileCoreServices.framework */; };
 		1CDBCE9014F346DF00AD787A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDBCE8C14F3460800AD787A /* CFNetwork.framework */; };
 		1CDBCE9214F346EB00AD787A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDBCE9114F346EB00AD787A /* SystemConfiguration.framework */; };
+		1CEA992F14F9218B00F61A8C /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 1CEA992E14F9218B00F61A8C /* README.mdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +163,7 @@
 		1CDBCE8C14F3460800AD787A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		1CDBCE8E14F346D700AD787A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1CDBCE9114F346EB00AD787A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1CEA992E14F9218B00F61A8C /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,6 +323,7 @@
 		1CDBCCFC14F338C600AD787A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1CEA992E14F9218B00F61A8C /* README.mdown */,
 				1CDBCCFD14F338C600AD787A /* AddressMap-Info.plist */,
 				1CDBCCFE14F338C600AD787A /* InfoPlist.strings */,
 				1CDBCD0114F338C600AD787A /* main.m */,
@@ -520,6 +523,7 @@
 				1CDBCD0C14F338C600AD787A /* DemoViewController.xib in Resources */,
 				1C06CECB14F3557000D7B5F1 /* CHANGELOG.md in Resources */,
 				1C06CECD14F3557000D7B5F1 /* README.md in Resources */,
+				1CEA992F14F9218B00F61A8C /* README.mdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
